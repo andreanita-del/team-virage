@@ -1,0 +1,33 @@
+import { useState } from 'react'
+
+const teamMembers = [
+  { name: "Philippe", role: "Team Principal", area: "Dirección" },
+  { name: "Gabi", role: "Directora Deportiva", area: "Dirección" },
+  { name: "Andrea", role: "Manager", area: "Dirección" },
+  { name: "Laura C", role: "Finanzas", area: "Administración" },
+  { name: "María", role: "Administración", area: "Administración" },
+  { name: "Carlos", role: "Ingeniero Jefe", area: "Ingeniería" },
+  { name: "Pablo", role: "Ingeniero de Datos", area: "Ingeniería" },
+  { name: "Sergio", role: "Mecánico Jefe", area: "Mecánica" },
+  { name: "Iván", role: "Mecánico", area: "Mecánica" },
+  { name: "Rubén", role: "Mecánico", area: "Mecánica" },
+  { name: "Diego", role: "Mecánico", area: "Mecánica" },
+  { name: "Marcos", role: "Mecánico", area: "Mecánica" },
+  { name: "Laura P", role: "Comunicación", area: "Marketing" },
+  { name: "Sofía", role: "Diseño", area: "Marketing" },
+  { name: "Álvaro", role: "Fotografía", area: "Marketing" },
+  { name: "Nuria", role: "Hospitality", area: "Hospitality" },
+  { name: "Elena", role: "Hospitality", area: "Hospitality" },
+  { name: "Marta", role: "Hospitality", area: "Hospitality" },
+  { name: "Tomás", role: "Logística", area: "Logística" },
+  { name: "Javier", role: "Logística", area: "Logística" },
+  { name: "Piloto 1", role: "Piloto", area: "Pilotos" },
+  { name: "Piloto 2", role: "Piloto", area: "Pilotos" },
+  { name: "Miguel", role: "Médico", area: "Médico" },
+  { name: "Rosa", role: "Fisio", area: "Médico" },
+  { name: "Fernando", role: "Seguridad", area: "Seguridad" },
+  { name: "Luis", role: "Seguridad", area: "Seguridad" },
+  { name: "Ana", role: "IT", area: "IT" },
+  { name: "Jorge", role: "IT", area: "IT" },
+  { name: "Raúl", role: "Relaciones Públicas", area: "RRPP" }
+]
