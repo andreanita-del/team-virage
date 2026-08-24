@@ -379,27 +379,13 @@ export default function App() {
     </div>
   )
 
-  const renderStaff = () => {
-    const areas = [...new Set(teamMembers.map(m => m.area))]
-    return (
-      <div>
-        <h2 style={{ color: '#e30613', marginBottom: '20px' }}>👥 Staff ({teamMembers.length} miembros)</h2>
-        {areas.map(area => (
-          <div key={area} style={styles.card}>
-            <div style={styles.cardTitle}>{area}</div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))', gap: '8px' }}>
-              {teamMembers.filter(m => m.area === area).map(m => (
-                <div key={m.name} style={{ backgroundColor: '#222', borderRadius: '6px', padding: '10px' }}>
-                  <div style={{ fontWeight: 'bold', fontSize: '14px' }}>{m.name}</div>
-                  <div style={{ color: '#aaa', fontSize: '12px' }}>{m.role}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    )
-  }
+const renderStaff = () => (
+  <iframe
+    src="/staff.html"
+    style={{ width: '100%', height: 'calc(100vh - 62px)', border: 'none', display: 'block' }}
+    title="Staff Virage 2026"
+  />
+)
 
   const renderStock = () => (
     <div>
