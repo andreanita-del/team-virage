@@ -378,14 +378,13 @@ export default function App() {
       ))}
     </div>
   )
-
 const renderStaff = () => (
-  <iframe
-    src="/staff.html"
-    style={{ width: '100%', height: 'calc(100vh - 62px)', border: 'none', display: 'block' }}
-    title="Staff Virage 2026"
-  />
-)
+    <iframe
+      src="/staff.html"
+      style={{ width: '100%', height: 'calc(100vh - 62px)', border: 'none', display: 'block' }}
+      title="Staff Virage 2026"
+    />
+  )
   const renderStock = () => (
     <div>
       <h2 style={{ color: '#e30613', marginBottom: '20px' }}>📦 Stock</h2>
