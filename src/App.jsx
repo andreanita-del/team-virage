@@ -386,7 +386,6 @@ const renderStaff = () => (
     title="Staff Virage 2026"
   />
 )
-
   const renderStock = () => (
     <div>
       <h2 style={{ color: '#e30613', marginBottom: '20px' }}>📦 Stock</h2>
