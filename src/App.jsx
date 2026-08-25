@@ -623,7 +623,7 @@ const renderStaff = () => (
           <button
             key={tab.id}
             style={activeTab === tab.id ? styles.activeTab : styles.tab}
-           onClick={() => tab.id === 'staff' ? window.location.href = '/staff.html' : setActiveTab(tab.id)}
+          window.open('/staff.html', '_blank')
           >
             {tab.label}
           </button>
