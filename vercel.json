@@ -1,4 +1,6 @@
 {
+  "buildCommand": "vite build && cp staff.html dist/staff.html",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/((?!staff\\.html$).*)", "destination": "/index.html" }
   ]
